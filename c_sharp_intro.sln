@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleInputOutput", "ConsoleInputOutput\ConsoleInputOutput.csproj", "{87629A71-32BA-4A95-8CDB-1173E4BC30E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structures", "Structures\Structures.csproj", "{85F5FC2A-A6C6-4A01-BBC2-4FD5D9CF058B}"
@@ -36,6 +38,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel", "Parallel\Parallel.csproj", "{739CA0CB-9DB6-454D-A7D2-EA66D1C77C2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFiles_homework", "WindowsFormsFiles_homework\WindowsFormsFiles_homework.csproj", "{831E9E14-D01A-4C98-9C28-0ABF92C8D512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -227,8 +231,23 @@ Global
 		{831E9E14-D01A-4C98-9C28-0ABF92C8D512}.Release|Mixed Platforms.Build.0 = Release|x86
 		{831E9E14-D01A-4C98-9C28-0ABF92C8D512}.Release|x86.ActiveCfg = Release|x86
 		{831E9E14-D01A-4C98-9C28-0ABF92C8D512}.Release|x86.Build.0 = Release|x86
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Debug|x86.Build.0 = Debug|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Release|x86.ActiveCfg = Release|Any CPU
+		{730CA45B-34B1-4E5E-B30F-CB1AC28D1D12}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A3060E5-3BBE-435A-AFD3-A5BCC216EEB4}
 	EndGlobalSection
 EndGlobal

@@ -354,5 +354,15 @@ namespace WindowsFormsFiles
                 MessageBox.Show("Отчет сформирован. Файл: " + ReportFileName);
             }
         }
-    }
+
+		private void textBoxFind_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }

@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid Background="#FFEAE6E5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="239*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Открыть_файл" Content="Открыть файл" HorizontalAlignment="Left" Margin="0,25,0,0" VerticalAlignment="Top" Width="114" Background="#FFCACDC9" Click="Открыть_файл_Click" Grid.Column="1" Height="20"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="615,379,0,0" VerticalAlignment="Top" Width="75" Background="#FFCACDC9" Click="Button_Click" Grid.Column="1" Height="20"/>
+        <TextBox x:Name="textBoxFileReadTime" HorizontalAlignment="Left" Height="23" Margin="286,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="404" TextChanged="Время_чтения_из_файла_TextChanged" Grid.Column="1" Text="Время чтения файла" Foreground="#FFD4D0D0"/>
+        <Label Content="Время чтения из файла:" HorizontalAlignment="Left" Margin="120,22,0,0" VerticalAlignment="Top" Width="150" Foreground="#FF686767" Grid.Column="1" Height="26"/>
+        <TextBox x:Name="textBoxFileReadCount" HorizontalAlignment="Left" Height="23" Margin="352,57,0,0" TextWrapping="Wrap" Text="Кол-во уникальных слов" VerticalAlignment="Top" Width="338" TextChanged="Количество_уникальных_слов_в_файле_TextChanged" Grid.Column="1" Foreground="#FFD4D0D0"/>
+        <Label Content="Количество уникальных слов в файле" HorizontalAlignment="Left" Margin="120,56,0,0" VerticalAlignment="Top" Foreground="#FF686767" Grid.Column="1" Height="26" Width="218"/>
+        <TextBox x:Name="TextBoxFind" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="179,118,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="247" Foreground="#FFD4D0D0"/>
+        <Button x:Name="ButtonExtract" Content="Четкий поиск" Grid.Column="1" HorizontalAlignment="Left" Margin="0,174,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <TextBox x:Name="textBoxExactTime" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="264,171,0,0" TextWrapping="Wrap" Text="Время четкого поиска" VerticalAlignment="Top" Width="247" Foreground="#FFD4D0D0"/>
+        <ListBox x:Name="listBoxResult" Grid.Column="1" HorizontalAlignment="Left" Height="188" Margin="21,202,0,0" VerticalAlignment="Top" Width="523"/>
+        <Label Content="Время поиска" Grid.Column="1" HorizontalAlignment="Left" Margin="172,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="Слово для поиска" Grid.Column="1" HorizontalAlignment="Left" Margin="66,118,0,0" VerticalAlignment="Top"/>
+        <ListBox ItemsSource="{Binding Numbers}"/>
+    </Grid>
+    
+</Window>
